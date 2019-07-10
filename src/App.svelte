@@ -64,8 +64,8 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td class="growth">{growth.toFixed(2)}%</td>
-					<td class="daily-growth">{dailyGrowth.toFixed(0)}</td>
+					<td class="blue">{growth.toFixed(2)}%</td>
+					<td class="pink">{dailyGrowth.toFixed(0)}</td>
 				</tr>
 			</tbody>
 		</table>
