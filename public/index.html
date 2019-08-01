@@ -1,16 +1,20 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset='utf8'>
-	<meta name='viewport' content='width=device-width'>
+	<head>
+		<meta charset='utf8'>
+		<meta name='viewport' content='width=device-width'>
 
-	<title>Instagram Engagement Calculator</title>
+		<title>Instagram Engagement Calculator</title>
 
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
-	<link rel='stylesheet' href='/bundle.css'>
-</head>
+		<link rel='stylesheet' href='/engagement-calculator.css'>
+	</head>
 
-<body>
-	<script src='/bundle.js'></script>
-</body>
+	<body>
+		<div id="instagram-engagement"></div>
+
+		<script src='/engagement-calculator.js'></script>
+		<script>
+			EngagementCalculator(document.getElementById('instagram-engagement'));
+		</script>
+	</body>
 </html>
